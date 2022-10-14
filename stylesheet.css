@@ -1,0 +1,108 @@
+  *{
+    /*border: 1px solid black;*/
+    font-family: Georgia, Tahoma, sans-serif;
+    padding: 0;
+  }
+
+  main, footer {
+    background-color: lightyellow;
+    color: #121212
+  }
+
+  main {
+    margin-bottom: 0px;
+    padding-bottom: 2%;
+  }
+
+  footer {
+    margin-top: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  body{
+    background-color: lightskyblue;
+  }
+  
+  nav {
+    /*position: fixed;*/
+    width: 100%;
+    display: block;
+    margin: auto;
+    background-color: lightskyblue;
+  }
+
+  #top {
+    background-color: lightskyblue;
+  }
+
+  nav ul{
+    list-style: none;
+    display: flex;
+    word-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 0 0 0;
+  }
+
+  figcaption {
+    width: 50%;
+    margin-left: 30%;
+  }
+
+  nav li {
+    margin: auto 10px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  #title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  nav li, #title, #subtitle {
+    color: whitesmoke;
+  }
+
+  #subtitle {
+    padding-bottom: 1%;
+  }
+  
+  img {
+    display: block;
+    width: 40%;
+    height: 40%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  p {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  #tribute-info-list {
+    display: block;
+    text-align: center;
+  }
+
+  #tribute-info-list li {
+    margin: 10px;
+    display: block;
+  }
+
+  #border {
+    border: 3px solid lightslategray;
+    border-radius: 5px;
+    width: 75%;
+    display: block;
+    margin: 3% auto 0% auto;
+  }
